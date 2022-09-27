@@ -1,3 +1,6 @@
+#Assignment W02 Prove: Developer - Solo Code Submission
+#Author: Mauro Sebastian Copa
+
 def main():
     decisions_list = []
     board_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -6,10 +9,10 @@ def main():
     print(board)
 
     while win_condition:
+        win_condition(board_list, player)
         user_decision = int(input(f"{player}'s turn to choose a square (1-9): "))
         while user_decision >= 1 and user_decision <= 9 and user_decision not in decisions_list:
             player, board, decisions_list = decision_display(user_decision, player, board, decisions_list, board_list)
-            win_condition(board_list, player)
             user_decision = 0
 
 
