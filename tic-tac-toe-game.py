@@ -1,6 +1,7 @@
-#Assignment W02 Prove: Developer - Solo Code Submission
-#Author: Mauro Sebastian Copa
-
+"""
+Tic tac toe game
+Author: Mauro Sebastian Copa
+"""
 def main():
     decisions_list = []
     board_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
